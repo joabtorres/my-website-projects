@@ -1,2 +1,2 @@
 # My-Website-Projects
-Este repositório foi criado para guarda alguns dos meus modelos website desenvolvidos.
+Este repositório foi criado com a finalidade de armazena alguns dos meus modelos websites.
