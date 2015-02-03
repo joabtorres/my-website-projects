@@ -1,0 +1,201 @@
+﻿/*
+Author: Joab Torres Alencar
+Author URL: http://www.joabtorres.com
+*/
+@font-face{
+	font-family: "tcceb";
+	src: url(../fonts/tcceb.ttf);
+}
+@font-face{
+	font-family: "ubuntu-medium";
+	src: url(../fonts/ubunt/ubuntu-medium.ttf);
+}
+@font-face{
+	font-family: "ubuntu-regular";
+	src: url(../fonts/ubunt/ubuntu-regular.ttf);
+}
+/*******************************************************
+		CLASSES E ALTERAÇÕES GLOBAIS
+*******************************************************/
+*{font-family: "ubuntu-regular";}
+p{
+	text-indent: .5em;
+}
+p, li{font-size: 1.1em;}
+.conteudo-geral{
+	min-width: 1024px!important;
+	max-width: 1800px!important;
+}
+.espaco-conteudo{
+	display: block;
+	padding: 50px 0;
+	margin-top: 50px;
+	background: rgba(35, 125, 179, .8);
+}
+div.clear{
+	clear: both;
+	margin: 3px 0;
+}
+.img-center{
+	display: block;
+	margin: 5px auto;
+}
+.img-float-left{
+	margin: 10px;
+	float: left;
+}.img-float-right{
+	margin: 10px;
+	float: right;
+}
+.img-width-full{
+width: 100%;
+}
+.titulo-da-pagina{
+font-family: "tcceb";
+color: rgba(0, 157, 62, 1);
+font-size: 4em;
+}
+.descricao-da-pagina{
+	font-size: 1.3em;
+}
+.title-principal{
+	font-weight: 700;
+	line-height: 1;
+	text-indent: 10px;
+}
+/*************************************************
+	TRABALHANDO O MENU
+************************************************/
+.menu-navegacao{
+	margin-bottom:10px;
+	padding: 0px 0;
+	background-image:-moz-linear-gradient(50% 0% -180deg,rgb(254,254,254) 0%,rgb(247,247,247) 50%,rgb(239,239,239) 97%); 
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(254,254,254)),color-stop(0.5, rgb(247,247,247)),color-stop(0.97, rgb(239,239,239)));
+	background-image:-webkit-linear-gradient(-180deg,rgb(254,254,254) 0%,rgb(247,247,247) 50%,rgb(239,239,239) 97%);
+	background-image:-ms-linear-gradient(-180deg,rgb(254,254,254) 0%,rgb(247,247,247) 50%,rgb(239,239,239) 97%);
+	background-image:linear-gradient(-180deg,rgb(254,254,254) 0%,rgb(247,247,247) 50%,rgb(239,239,239) 97%);
+	border-bottom:1px solid rgb(205,212,221);
+	-moz-box-shadow:inset 0px 0px 0px rgb(255,255,255);
+	-webkit-box-shadow:inset 0px 0px 0px rgb(255,255,255);
+	box-shadow:inset 0px 0px 0px rgb(255,255,255);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#fffefefe,endColorstr=#ffefefef,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#fffefefe,endColorstr=#ffefefef,GradientType=0);
+}
+.navbar-right{
+	margin-top: 25px;
+	margin-right: 20px;
+}
+.menu-navegacao .menu-logo-marca{
+	display: block;
+	padding:0px;
+	margin: 0;
+	font-family: "tcceb";
+	color: rgba(0, 157, 62, 1);
+	font-size: 5em;
+}
+.menu-navegacao .menu-logo-marca:hover{
+	text-decoration: none;
+}
+.nav>li>a{
+	color: black!important;
+	font-family: "ubuntu-medium";
+	font-size: 1.2em;
+	padding: 10px;
+}
+.nav>li>a:hover{
+	background: none;
+	color: #009B4F!important;
+}
+
+
+/*************************************************************
+ 				PAGINA HOME
+ ************************************************************/
+/* SLIDE SHOW*/
+.carousel-inner{
+	border-radius: 20px!important;
+	-webkit-border-radius: 20px!important;
+	-moz-border-radius: 20px!important;
+}
+.carousel-inner img{
+	border-radius:20px!important;
+	-webkit-border-radius:20px!important;
+	-moz-border-radius:20px!important;
+}
+
+
+.conteudo-thumbnail{
+	padding-top: 20px;
+}
+.conteudo-thumbnail h3{
+font-weight: bold;
+font-family: "ubuntu-medium";
+font-size: 2em;
+}
+.conteudo-thumbnail img{
+	width: 40%;
+	transition: transform 0.5s;
+	-moz-transition: transform 0.5s;
+	-webkit-transition: transform 0.5s;
+}
+.conteudo-thumbnail img:hover{
+	transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+}
+
+/*************************************
+ 			DISK TAXI
+ **************************************/
+ .thumbnail p{
+ 	text-indent: 0;
+ }
+ /*************************************
+ 			SOBRE
+ **************************************/
+ #sobre-logo-marca{
+ 	width: 30%;
+ }
+ figure p{
+ 	text-indent: 0;
+ 	text-align: center;
+ 	margin:0;
+ 	padding: 0;
+ }
+ /*************************************
+ 			LINKS IMPORTANTES
+ **************************************/
+
+td .a-text-center{
+display: block;
+text-align: center;
+width: 100%;
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+.list-de-links td:hover{
+	background: #ccc;
+}
+td .a-text-center:hover{
+text-decoration: none;
+}
+ /*************************************
+ 			contato
+ **************************************/
+ #localizacao-mapa{
+ 	width: 100%;
+ 	height: 300px;
+ 	background: red;
+ }
+.footer{
+	margin-top: 20px;
+	color: white;
+	font-size: 1.1em;
+	padding: 30px;
+	background: rgba(35, 125, 179, .8);
+}
+.footer a{
+	font-weight: bold;
+	color: rgb(57, 62, 157);
+}
